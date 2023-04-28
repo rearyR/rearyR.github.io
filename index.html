@@ -23,3 +23,78 @@
     </footer>
 </body>
 </html>
+/* 基本樣式 */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header, nav, main, section, footer {
+	display: block;
+}
+
+/* 頁面佈局 */
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+nav {
+	background-color: #999;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #333;
+}
+
+main {
+	padding: 10px;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+section h2 {
+	color: #333;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+/* 媒體查詢 */
+
+@media only screen and (max-width: 600px) {
+
+	nav ul li {
+		display: block;
+		margin: 0;
+	}
+
+}
